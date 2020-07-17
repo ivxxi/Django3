@@ -1,0 +1,67 @@
+{%extends 'base.html'%}
+{% load bootstrap3%}
+{% block content %} 
+{% load staticfiles %}
+{{ block.super}}
+
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <style>
+
+  </style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<div id="new" class="container" id="overlay"><br><br><br><br><br><br><br target="_blank">
+  <img src="https://marketingbitz.com/wp-content/uploads/2018/08/BOOST_GUEST_BLOG_IMAGE_SET_5_FIVE_STAR_REVIEW_BG_1200x628px_v1_1.jpg" alt="awwwards"><br> <br> <br> <hr> <br>
+<h1 class="text-center" class="jumbotron" style="font-family: 'Lucida Sans', 'Lucida Sans Regular'; font-size: 50px;"> <br><br><span><a class='btn btn-info' href="#own">visit site</a></span></h1><br><br><br><br>
+<br><br><br><br><br>
+
+</div>
+<br>
+
+<div class="container" id="own">
+ <div class="row">
+  {% for news_item in projects %}
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+       <div class="thumbnail" >
+        {% if news_item.photo %}
+        <p class="card-body "><img src="{{news_item.photo.url}}"  class="img-responsive" ></p>   
+        {% endif %}
+        <h2 class="text-center"> {{ news_item.title }} </h2>
+      <p class="text-center"> {{ news_item.description|truncatechars:70}} </p>
+      
+    
+      <a class="btn btn-info" target="_blank" href="{{news_item.link}}" class="text-center">Visit Site</a>
+      <hr>
+      {% for com in news_item.comment_set.all %}
+      <p>{{com.comment}}</p>
+      {% empty %}
+      {% endfor %}
+
+     
+  <a class="btn btn-info" href="{% url 'comment' news_item.id %}">Write a Review</a>
+  <br>
+
+  <br>
+  <a href="{% url 'project' news_item.id %}" class="btn btn-grey btn-md">Review && Rate </a>
+
+
+
+</div>
+    </div>
+
+  
+
+  {% endfor %}
+</div>
+</div>
+
+{% endblock %}
+
+
+
+
