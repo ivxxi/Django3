@@ -1,0 +1,100 @@
+
+    <nav class="navbar navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="{%url 'welcome'%}">Awards - review</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+                {% if user.is_authenticated %}
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="active"><a href="{%url 'welcome'%}">Home <span class="sr-only"></span></a></li>
+                    <li class="active"><a href="{%url 'new-post'%}">Submit Site<span class="sr-only"></span></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">profile <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="{%url 'profile'%}"><i class="fa fa-info-circle"></i> Profile</a></li>
+                            <li><a href="/accounts/password/change"><i class="fa fa-adjust"></i> Change Password</a></li>
+                            <li class="divider"></li>
+                            <li><a href="/logout"><i class="fa fa-key"></i> Log Out</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+                {% else %}
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="active" style="color:white"><a href="/accounts/login"></a>Login</li>       
+                    <li class="active" style="color:white"><a href="/accounts/register"></a>Register</li>
+                </ul>
+                {% endif %}
+            </div>
+        </div>
+    </nav>
+
+
+<style>
+.mix {
+    min-height:370px;
+}
+
+nav.navbar-custom { 
+ background: black; 
+ border-color: black; 
+ box-shadow: 0 0 12px 0 #ccc; 
+}
+nav.navbar-custom a { 
+    color: #dfe0ed; 
+}
+nav.navbar-custom ul.navbar-nav a { 
+    color: #dfe0ed; 
+    border-style: solid; 
+    border-width: 0 0 2px 0; 
+    border-color: #fff; 
+}
+    
+nav.navbar-custom ul.navbar-nav a:hover,
+nav.navbar-custom ul.navbar-nav a:visited,
+nav.navbar-custom ul.navbar-nav a:focus,
+nav.navbar-custom ul.navbar-nav a:active { 
+    background: slategray; 
+}
+nav.navbar-custom ul.navbar-nav a:hover { 
+    border-color: slategray; 
+}
+nav.navbar-custom li.divider { 
+    background: slategray; 
+}
+nav.navbar-custom button.navbar-toggle { 
+    background: slategray; 
+    border-radius: 2px; 
+}
+nav.navbar-custom button.navbar-toggle:hover { 
+    background: #999; 
+}
+nav.navbar-custom button.navbar-toggle > span.icon-bar { 
+    background: #fff; 
+}
+nav.navbar-custom ul.dropdown-menu { 
+    border: 0; 
+    background: #fff; 
+    border-radius: 4px; 
+    margin: 4px 0; 
+    border: 2px solid #5CB85C;
+    box-shadow: 0 0 4px 0 #ccc; 
+}
+nav.navbar-custom ul.dropdown-menu > li > a { 
+    color: black; 
+}
+nav.navbar-custom ul.dropdown-menu > li > a:hover { 
+    background: #5CB85C; color: #fff; 
+}
+nav.navbar-custom span.badge { 
+    background: #5CB85C; 
+    font-weight: normal; 
+    font-size: 11px;
+     margin: 0 4px; 
+}
+nav.navbar-custom span.badge.new { 
+    background: rgba(255, 0, 0, 0.8); color: #fff; 
+}
+
+</style>
