@@ -8,12 +8,25 @@
 | Add a cohort                             | Click on the add a cohort on the sidenav  | You will be navigated to a page that     |
 |                                          | and submit cohort details                 | has a form to register the cohort        |
 |                                          |                                           |                                          |
-| Add a User                               | Click on the technical mentor on the      | You will be navigated to a page which    |
-|                                          | sidenav                                   | has a form to register the mentor        |
+| Add a User                               | Click on add User                         |                                          |
 |                                          |                                           |                                          |
-|                                          | Click on the student on the sidenav       | You will be navigated to a page which    |
+|                                          | Click on technical mentor                 | You will be navigated to a page which    |
+|                                          |                                           | has a form to register the mentor        |
+|                                          |                                           |                                          |
+|                                          | Click on student                          | You will be navigated to a page which    |
 |                                          |                                           | has a form to register the student       |
 |                                          |                                           |                                          |
+| View Cohorts                             |  Click on cohorts                         | You will be navigated to a page that has |
+|                                          |                                           | all available cohorts displayed          |
+|                                          |                                           |                                          |
+| View technical mentors                   |  Click on technical mentors               | You will be navigated to a page that has |
+|                                          |                                           | a table with all available technical     |
+|                                          |                                           | mentors displayed                        |
+|                                          |                                           |                                          |
+| View students                            |  Click on students                        | You will be navigated to a page that has |
+|                                          |                                           | a table with all available students      |
+|                                          |                                           | displayed                                |
+
 #### Technical Mentor
 | Generate pairs                           | Click on the Generate pairs button        | You will be navigated to a page which    |
 |                                          |                                           | same page in cards                       |
@@ -22,12 +35,17 @@
 |                                          |                                           | has a table on previous student pairing  |
 |                                          |                                           | then click on the project you want       |
 |                                          |                                           |                                          |
+| View students                            |  Click on students                        | You will be navigated to a page that has |
+|                                          |                                           | a table with all available students in   |
+|                                          |                                           | your cohort displayed                    |
+|                                          |                                           |                                          |
 #### Student
 | View pair                                |  Click sign in                            | You will be navigated to the dashboard   |
 |                                          |                                           | where your student pair will be displayed|
 |                                          |                                           |                                          |
 |                                          |                                           |                                          |
-|                                          |                                           |                                          |
+| Edit profile                             | Click on my profile on the sidenav        | You will be navigated to edit profile    |
+|                                          |                                           | page                                     |
 |                                          |                                           |                                          |
 | Log out                                  | Click on the logout button                | You will be logged out                   |
 |                                          |                                           |                                          |
