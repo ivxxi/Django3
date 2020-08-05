@@ -43,10 +43,11 @@
 |                                          |                                           | where your student pair will be displayed|
 |                                          |                                           |                                          |
 |                                          |                                           |                                          |
+|                                          |                                           |                                          |
+|                                          |                                           |                                          |
 | Edit profile                             | Click on my profile on the sidenav        | You will be navigated to edit profile    |
 |                                          |                                           | page                                     |
 |                                          |                                           |                                          |
 | Log out                                  | Click on the logout button                | You will be logged out                   |
 |                                          |                                           |                                          |
 |                                          |                                           |                                          |
-
