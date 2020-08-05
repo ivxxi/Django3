@@ -1,11 +1,12 @@
 
+
 ### BDD Specifications Table
 |        User Requirements                 |           Input                           |           Output                         |
 |------------------------------------------|-------------------------------------------|------------------------------------------|
 | Sign In                                  | Input email and password and click the    | If login is successful, the user is      |
 |                                          | sign in button                            | redirected to their respective dashboard |
 |                                          |                                           |                                          |
-|     ADMIN                                |                                           |                                          |
+### |     ADMIN                                |                                           |                                          |
 | Add a cohort                             | Click on the add a cohort on the sidenav  | You will be navigated to a page that     |
 |                                          | and submit cohort details                 | has a form to register the cohort        |
 |                                          |                                           |                                          |
@@ -27,7 +28,7 @@
 | View students                            |  Click on students                        | You will be navigated to a page that has |
 |                                          |                                           | a table with all available students      |
 |                                          |                                           | displayed                                |
-|    TECHNICAL MENTOR                      |                                           |                                          |
+### |    TECHNICAL MENTOR                      |                                           |                                          |
 | Generate pairs                           | Click on the Generate pairs button        | You will be navigated to a page which    |
 |                                          |                                           | same page in cards                       |
 |                                          |                                           |                                          |
@@ -39,7 +40,7 @@
 |                                          |                                           | a table with all available students in   |
 |                                          |                                           | your cohort displayed                    |
 |                                          |                                           |                                          |
-|    STUDENT                               |                                           |                                          |
+### |     STUDENT                               |                                           |                                          |
 | View pair                                |  Click sign in                            | You will be navigated to the dashboard   |
 |                                          |                                           | where your student pair will be displayed|
 |                                          |                                           |                                          |
@@ -50,3 +51,4 @@
 | Log out                                  | Click on the logout button                | You will be logged out                   |
 |                                          |                                           |                                          |
 |                                          |                                           |                                          |
+
