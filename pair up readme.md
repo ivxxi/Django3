@@ -5,6 +5,7 @@
 |                                          | sign in button                            | redirected to their respective dashboard |
 |                                          |                                           |                                          |
 |     ADMIN                                |                                           |                                          |
+|------------------------------------------|-------------------------------------------|------------------------------------------|
 | Add a cohort                             | Click on the add a cohort on the sidenav  | You will be navigated to a page that     |
 |                                          | and submit cohort details                 | has a form to register the cohort        |
 |                                          |                                           |                                          |
@@ -27,6 +28,7 @@
 |                                          |                                           | a table with all available students      |
 |                                          |                                           | displayed                                |
 |    TECHNICAL MENTOR                      |                                           |                                          |
+|------------------------------------------|-------------------------------------------|------------------------------------------|
 | Generate pairs                           | Click on the Generate pairs button        | You will be navigated to a page which    |
 |                                          |                                           | same page in cards                       |
 |                                          |                                           |                                          |
@@ -39,10 +41,12 @@
 |                                          |                                           | your cohort displayed                    |
 |                                          |                                           |                                          |
 |    STUDENT                               |                                           |                                          |
+|------------------------------------------|-------------------------------------------|------------------------------------------|
 | View pair                                |  Click sign in                            | You will be navigated to the dashboard   |
 |                                          |                                           | where your student pair will be displayed|
 |                                          |                                           |                                          |
 |                                          |                                           |                                          |
+|------------------------------------------|-------------------------------------------|------------------------------------------|
 | Edit profile                             | Click on my profile on the sidenav        | You will be navigated to edit profile    |
 |                                          |                                           | page                                     |
 |                                          |                                           |                                          |
