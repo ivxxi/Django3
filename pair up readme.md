@@ -26,7 +26,6 @@
 | View students                            |  Click on students                        | You will be navigated to a page that has |
 |                                          |                                           | a table with all available students      |
 |                                          |                                           | displayed                                |
-
 |    TECHNICAL MENTOR                      |                                           |                                          |
 | Generate pairs                           | Click on the Generate pairs button        | You will be navigated to a page which    |
 |                                          |                                           | same page in cards                       |
